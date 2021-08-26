@@ -10,4 +10,8 @@ public class Rectangulo2 {
 		this.alto = alto;
 	}
 
+	@Override
+	public String toString() {
+		return "Rectangulo2 [ancho=" + ancho + ", alto=" + alto + "]";
+	}
 }
