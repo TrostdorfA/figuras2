@@ -10,4 +10,8 @@ public class Rectangulo2 {
 		this.alto = alto;
 	}
 
+	public double getPermitro() {
+		return this.alto * 2 + this.ancho * 2;
+	}
+
 }
