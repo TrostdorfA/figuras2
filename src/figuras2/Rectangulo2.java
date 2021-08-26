@@ -14,4 +14,8 @@ public class Rectangulo2 {
 	public String toString() {
 		return "Rectangulo2 [ancho=" + ancho + ", alto=" + alto + "]";
 	}
+	
+	public double getPermitro() {
+		return this.alto * 2 + this.ancho * 2;
+	}
 }
