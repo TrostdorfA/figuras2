@@ -15,7 +15,7 @@ public class Rectangulo2 {
 		return "Rectangulo2 [ancho=" + ancho + ", alto=" + alto + "]";
 	}
 	
-	public double getPermitro() {
+	public double getPerimetro() {
 		return this.alto * 2 + this.ancho * 2;
 	}
 }
